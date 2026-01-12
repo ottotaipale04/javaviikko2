@@ -69,10 +69,10 @@ public class App
                             car.decelerate(decrease);
                         }
                         break;
+                        
                     case 0:
                         System.out.print("Kiitos ohjelman käytöstä.");
                         exit = true;
-                        sc.close();
                         break;
 
                     default:
