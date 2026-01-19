@@ -11,7 +11,7 @@ public class App
     {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Anna auton merkki: ");
+        System.out.print("Anna auton merkki: ");
         String brand = sc.nextLine();
 
         System.out.println("Anna auton malli: ");
@@ -69,7 +69,7 @@ public class App
                             car.decelerate(decrease);
                         }
                         break;
-                        
+
                     case 0:
                         System.out.print("Kiitos ohjelman käytöstä.");
                         exit = true;
